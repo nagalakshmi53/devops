@@ -23,7 +23,7 @@ jobs:
 
     # 🔐 Docker login
     - name: Docker login
-      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+      run: echo "${{ secrets.qwerty@5863 }}" | docker login -u "${{ secrets.nagalakshmi2004 }}" --password-stdin
 
     - name: Build Docker image
       run: docker build -t nagalakshmi53/nodejs-sample:latest .
